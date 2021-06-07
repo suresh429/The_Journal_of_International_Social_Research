@@ -2,20 +2,20 @@ apply plugin: 'com.android.application'
 
 android {
 
-   
+
     signingConfigs {
         release {
-            storeFile file('E:\\Android projects\\Omics Projects\\Uluslararasi Sosyal Arastirmalar Dergisi\\jks\\sosyalarastirmalar.jks')
-            storePassword 'sosyalarastirmalar'
-            keyPassword 'sosyalarastirmalar'
-            keyAlias 'Sosyalarastirmalar'
+        storeFile file('E:\\Android projects\\Omics Projects\\The Journal of International Social Research\\jks\\jisr.jks')
+            storePassword 'jisr@123'
+            keyAlias 'Jisr'
+            keyPassword 'jisr@123'
         }
     }
     compileSdkVersion 30
     buildToolsVersion '30.0.3'
 
     defaultConfig {
-        applicationId "com.journals.sosyalarastirmalar"
+        applicationId "com.journals.jisr"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
